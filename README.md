@@ -1,7 +1,9 @@
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="fixed-table-100">
 
 <tr>
-<td align="center"  style="font-family:Arial,Helvetica,sans-serif; color:#333333; text-align:left; font-size:16px; line-height:22px; margin:0; padding:20px 40px 20px 40px;" valign="top">
+<td align="center"  style="font-family:Arial,Helvetica,sans-serif; color:#333333; text-align:left; font-size:16px; line-height:22px; margin:0; padding:20px 40px 20px 40px;"  valign="top">
+
+	
 
 You don't want to wait when you are sick. When you need care right away, LiveHealth
 Online lets you video chat with a doctor fast. No waiting in the ER.<br><br>
