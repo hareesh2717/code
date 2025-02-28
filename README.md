@@ -1,6 +1,1 @@
-  <!--[if gte mso 9]>
-            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:o="urn:schemas-microsoft-com:office:office" href="http://" target="_blank" title="call to action" alias="call to action"  style="height:35px;v-text-anchor:middle;width:150px;" arcsize="50%" strokecolor="#B7B7B8" fillcolor="#B7B7B8">
-               <w:anchorlock/>
-               <center style="color:#ffffff;font-family:sans-serif;font-size:14px;font-weight:bold;">Call to action&nbsp;&nbsp;&gt;</center>
-            </v:roundrect>
-            <![endif]-->
+<a alias="call to action" href="http://" style="background-color:#B7B7B8;border:1px solid #B7B7B8;border-radius:20px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:14px;font-weight:bold;line-height:35px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;mso-hide:all;" target="_blank" title="call to action">Call to action&nbsp;&nbsp;&gt;</a>
