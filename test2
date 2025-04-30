@@ -1,86 +1,13 @@
- <style type="text/css">
-                  @media only screen and (max-width: 480px) {     
-                                       .bgwrapper
-         {
-         width:100% !important;
-         height:auto !important;
-      
-        
-  background-size:100% 100% !important;
-         }
-                   
-                 
-.padbg
-{
-	padding: 40px 20px 0px 20px !important;
-}
-.padbg1
-{
-	padding: 20px 20px 30px 20px !important;
-}
-.pad20
-{
-	padding: 20px 0px 20px 0px !important;
-}
-
-
-.font20
-{
-	font-size:20px !important;
-	line-height:24px !important;
-
-}
-
-.font24
-{
-	font-size:24px !important;
-	line-height:28px !important;
-
-}
-.button1
-{
-	width: 60% !important;
-
-}
-    .font10  
-    {
-	font-size:10px !important;
-	line-height:14px !important;
-
-}
-
-
-   }
-
-            </style>
-
-
-<table align="center" border="0" cellpadding="0" 
-                                    cellspacing="0" class="fixed-table-100" 
-                                    role="presentation" width="600">
+%%[IF @VAR4040 = "1" THEN]%%<table border="0" cellpadding="0" cellspacing="0" width="100%">
  
   <tr>
-   <td align="left" 
-	  background="https://image.messageinsite.com/lib/fe6615707c6406787413/m/1/dcf3e19d-0020-458b-bd95-51f4860966a0.jpg" 
-	  bgcolor="#1355e9" class="bgwrapper" height="229" 
-	  style="background:url('https://image.messageinsite.com/lib/fe6615707c6406787413/m/1/dcf3e19d-0020-458b-bd95-51f4860966a0.jpg');width:600px; background-repeat: no-repeat;background-repeat: no-repeat;background-size:cover; background-position:center" 
-	  valign="top" width="600">
-    <!--[if gte mso 9]>
-         <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:229px;">
-            <v:fill type="tile" src="https://image.messageinsite.com/lib/fe6615707c6406787413/m/1/dcf3e19d-0020-458b-bd95-51f4860966a0.jpg" color="#1355e9" />
-            <v:textbox inset="0,0,0,0">
-               <![endif]--><div>
-               
-               <table width="100%" border="0" cellspacing="0" cellpadding="0">
-               
-               <tr>
-	<td class="font20 padbg"  align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:26px; color:#ffffff; line-height:30px; padding:60px 20px 0px 40px; font-weight:bold" >Your benefits end on</td>    </tr>
-
-     <tr>
-	<td class="font24 padbg1"  align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:36px; color:#ffffff; line-height:40px; padding:40px 20px 10px 40px; font-weight:bold">%%=v(@F08)=%%</td>    </tr>
-</table>
-               
-     </div><!--[if gte mso 9]>
-            </v:textbox>
-         </v:rect>
-         <![endif]--></td></tr></table>
+   <td align="left" valign="top">
+    Content for option 1</td></tr></table> %%[ELSEIF @VAR4040 = "2" THEN]%%<table border="0" cellpadding="0" cellspacing="0" width="100%">
+ 
+  <tr>
+   <td align="left" valign="top">
+    Content for option 2</td></tr></table> %%[ELSE]%%<table border="0" cellpadding="0" cellspacing="0" width="100%">
+ 
+  <tr>
+   <td align="left" valign="top">
+    Default or fallback content</td></tr></table> %%[ENDIF]%%
