@@ -1,13 +1,4 @@
-%%[IF @VAR4040 = "1" THEN]%%<table border="0" cellpadding="0" cellspacing="0" width="100%">
- 
-  <tr>
-   <td align="left" valign="top">
-    Content for option 1</td></tr></table> %%[ELSEIF @VAR4040 = "2" THEN]%%<table border="0" cellpadding="0" cellspacing="0" width="100%">
- 
-  <tr>
-   <td align="left" valign="top">
-    Content for option 2</td></tr></table> %%[ELSE]%%<table border="0" cellpadding="0" cellspacing="0" width="100%">
- 
-  <tr>
-   <td align="left" valign="top">
-    Default or fallback content</td></tr></table> %%[ENDIF]%%
+<p dir="rtl" style="text-align:right; font-family:Tahoma, Arial, sans-serif; font-size:12px; line-height:1.9; color:#000000; margin:0; direction: rtl">
+    
+يُرجى عدم الرد على هذا البريد الإلكتروني. بالتأكيد نودّ مساعدتك، إلا أن هذه الرسائل لا تخضع للمراقبة. إذا كانت لديك أسئلة، يُرجى <span style="text-decoration:underline">تسجيل الدخول للتحدث مع أحد</span> <span href="#" style="text-decoration: underline;">الممثلين</span> في أثناء ساعات العمل. تعد هذه الطريقة الأسرع والأسلم للتواصل معنا. يمكنك أيضًا الاتصال بممثل عبر الهاتف، من الاثنين إلى الجمعة، من الساعة 7:30 صباحًا إلى 6 مساءً بتوقيت المنطقة الوسطى، على الرقم <span style="direction:rtl;font-weight: bold;" dir="rtl">(TRS 711) 833-731-2153</span>.
+   </p>
