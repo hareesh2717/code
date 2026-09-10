@@ -1,3 +1,34 @@
-	<p dir="rtl" style="text-align:right; font-family:Tahoma, Arial, sans-serif; font-size:12px; line-height:1.9; color:#000000; margin:0;">
-									يُُرجى عدم الرد على هذا البريد الإلكتروني. بالتأكيد نودّّ مساعدتك، إلا أن هذه الرسائل لا تخضع للمراقبة. إذا كانت لديك أسئلة، يُُرجى <a   href="#" style="color:#1A3673; text-decoration: underline;" target="_blank">تسجيل الدخول للتحدث مع أحد</a> أحد <span style="color: #333333; text-decoration: underline;">الممثلين</span> في أثناء ساعات العمل. تعد هذه الطريقة الأسرع والأسلم للتواصل معنا. يمكنك أيضًًا الاتصال بممثل عبر الهاتف <span class="ltr">(TRS 711)</span> <span class="ltr">833-731-2153</span> ، من الاثنين<br>
-						<a style="color:#000000; text-decoration: underline;">			إلى الجمعة، من الساعة 7 صباحًًا إلى 5:30 مساءًً بتوقيت المنطقة الوسطى.</a></p>
+%%[
+VAR @rows, @row, @rowCount
+VAR @subjectLine, @preheader, @headerLogo, @heroImage, @body, @callout
+SET @PlanState = AttributeValue("PlanState")
+SET @BrandAbbreviation = AttributeValue("BrandAbbreviation")
+SET @VAR016 = AttributeValue("VAR016")
+SET @PlanState = AttributeValue("PlanState")
+SET @BrandAbbreviation = AttributeValue("BrandAbbreviation")
+SET @VAR016 = AttributeValue("VAR016")
+
+
+
+SET @rows = LookupRows(
+    "state_learn",
+    "PlanState", @PlanState,
+    "BrandAbbreviation", @BrandAbbreviation,
+    "VAR016", @VAR016
+)
+
+SET @rowCount = RowCount(@rows)
+
+IF @rowCount > 0 THEN
+
+    SET @row = Row(@rows, 1)
+
+    SET @subjectLine = Field(@row, "subjectLine")
+    SET @preheader   = Field(@row, "Preheader")
+    SET @headerLogo  = Field(@row, "HeaderLogo")
+    SET @heroImage   = Field(@row, "HeroImage")
+    SET @body        = Field(@row, "Body")
+    SET @callout     = Field(@row, "Callout")
+
+ENDIF
+]%%
