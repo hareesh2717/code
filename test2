@@ -1,135 +1,14 @@
-<table bgcolor="#ddf4f3" cellpadding="0" cellspacing="0" role="presentation" width="100%">
-	<tr>
-		<td align="center" class="px-24" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; line-height: 35px; padding: 30px 32px; margin: 0px; font-weight: normal; color: #00498D; text-align: left;" valign="top">
-		<h2 class="h2" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; line-height: 35px; padding: 0px; margin: 0px; font-weight: normal; color: %%=v(@Textcolor)=%%; text-align: left;">
-		%%[IF @VAR016 == 0 THEN]%% 
-		%%[IF @VAR4040 == 1 THEN]%% <strong>You can get 
-		a flu vaccine at no cost when you go to a pharmacy in network</strong> %%[ELSEIF 
-		@VAR4040 == 3 THEN]%% <strong>Your child can get a flu vaccine at no cost 
-		when you go to a pharmacy in network</strong> %%[ENDIF]%% %%[ENDIF]%%</h2>
-		</td>
-	</tr>
-	<tr>
-		<td align="left" class="px-24" style="padding: 0 32px">%%[IF @VAR016 == 
-		0 THEN]%% %%[IF @VAR4040 == 1 THEN]%%<table bgcolor="#ddf4f3" cellpadding="0" cellspacing="0" role="presentation" width="100%">
-			<tr>
-				<td align="left" style="padding: 0 0 40px 0" valign="top">
-				<table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
-					<tr>
-						<td align="center" valign="middle">
-						<div>
-						
-						
-												
-						
-							<!--[if mso]>
-<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml"
-  xmlns:w="urn:schemas-microsoft-com:office:word"
-  href="https://member.anthem.com/public/login?cmp=EM-MEDICAID-SydneyReg_eng_FAM1-ABCBS-NY"
-  target="_blank"
-  style="height:40px;width:250px;v-text-anchor:middle;"
-  arcsize="50%"
-  strokecolor="#9EE110"
-  fillcolor="#9EE110">
-  <w:anchorlock/>
-  <center style="color:#1A3673;
-    font-family:Arial,Helvetica,sans-serif;
-    font-size:16px;
-    font-weight:bold;
-    line-height:40px;">
-    Log in to the Sydney Health app
-  </center>
-</v:roundrect>
-<![endif]-->
-
-<!--[if !mso]><!-- -->
-<table role="presentation" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td align="left"
-        bgcolor="#9EE110"
-        style="border-radius:50px;">
-      <a href="https://member.anthem.com/public/login?cmp=EM-MEDICAID-SydneyReg_eng_FAM1-ABCBS-NY"
-         target="_blank"
-         style="
-           display:inline-block;
-           width:300px;
-           height:40px;
-           line-height:40px;
-           background-color:#9EE110;
-           border-radius:50px;
-           color:#1A3673;
-           font-family:Arial,Helvetica,sans-serif;
-           font-size:16px;
-           font-weight:bold;
-           text-align:center;
-           text-decoration:none;
-           -webkit-text-size-adjust:none;
-         ">
-        Log in to the Sydney Health app
-      </a>
-    </td>
-  </tr>
-</table>
-<!--<![endif]-->							
-						</div>
-						</td>
-					</tr>
-				</table>
-				</td>
-			</tr>
-		</table>
-		%%[ELSEIF @VAR4040 == 3 THEN]%%
-		
-		
-		<!--[if mso]>
-<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml"
-  xmlns:w="urn:schemas-microsoft-com:office:word"
-  href="https://www.summitcommunitycare.com/arkansas-passe/care/find-a-doctor.html?cmp=EM_MDCD_OMNI_FLU2026_AR_SCC"
-  target="_blank"
-  style="height:40px;width:250px;v-text-anchor:middle;"
-  arcsize="50%"
-  strokecolor="#00498D"
-  fillcolor="#00498D">
-  <w:anchorlock/>
-  <center style="color:#ffffff;
-    font-family:Arial,Helvetica,sans-serif;
-    font-size:16px;
-    font-weight:bold;
-    line-height:40px;">
-    Find a flu vaccine near you
-  </center>
-</v:roundrect>
-<![endif]-->
-
-<!--[if !mso]><!-- -->
-<table role="presentation" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td align="center"
-        bgcolor="#00498D"
-        style="border-radius:50px;">
-      <a href="https://www.summitcommunitycare.com/arkansas-passe/care/find-a-doctor.html?cmp=EM_MDCD_OMNI_FLU2026_AR_SCC"
-         target="_blank"
-         style="
-           display:inline-block;
-           width:250px;
-           height:40px;
-           line-height:40px;
-           background-color:#00498D;
-           border-radius:50px;
-           color:#ffffff;
-           font-family:Arial,Helvetica,sans-serif;
-           font-size:16px;
-           font-weight:bold;
-           text-align:center;
-           text-decoration:none;
-           -webkit-text-size-adjust:none;
-         ">
-        Find a flu vaccine near you
-      </a>
-    </td>
-  </tr>
-</table>
-<!--<![endif]-->
-		%%[ENDIF]%% %%[ENDIF]%%</td>
-	</tr>
+<table border="0" cellpadding="0" cellspacing="0" style="width:150px;" width="150">
+   <tr>
+      <td align="left" valign="top">
+         <div>
+            <!--[if gte mso 9]>
+            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:o="urn:schemas-microsoft-com:office:office" href="http://" target="_blank" title="call to action" alias="call to action"  style="height:35px;v-text-anchor:middle;width:150px;" arcsize="50%" strokecolor="#B7B7B8" fillcolor="#B7B7B8">
+               <w:anchorlock/>
+               <center style="color:#ffffff;font-family:sans-serif;font-size:14px;font-weight:bold;">Call to action&nbsp;&nbsp;&gt;</center>
+            </v:roundrect>
+            <![endif]--><a alias="call to action" href="http://" style="background-color:#B7B7B8;border:1px solid #B7B7B8;border-radius:20px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:14px;font-weight:bold;line-height:35px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;mso-hide:all;" target="_blank" title="call to action">Call to action&nbsp;&nbsp;&gt;</a>
+         </div>
+      </td>
+   </tr>
 </table>
