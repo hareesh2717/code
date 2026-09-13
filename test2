@@ -11,17 +11,17 @@
 	</tr>
 	<tr>
 		<td align="left" class="px-24" style="padding: 0 32px">%%[IF @VAR016 == 
-		0 THEN]%% %%[IF @VAR4040 == 1 THEN]%%<table bgcolor="#ddf4f3" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+		0 THEN]%% %%[IF @VAR4040 == 1 THEN]%%
+		
+		<table bgcolor="#ddf4f3" cellpadding="0" cellspacing="0" role="presentation" width="100%">
 			<tr>
 				<td align="left" style="padding: 0 0 40px 0" valign="top">
 				<table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
 					<tr>
 						<td align="center" valign="middle">
-						<div>
+				
 						
-						
-	
-							<!--[if mso]>
+		<!--[if mso]>
 <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml"
   xmlns:w="urn:schemas-microsoft-com:office:word"
   href="https://member.anthem.com/public/login?cmp=EM-MEDICAID-SydneyReg_eng_FAM1-ABCBS-NY"
@@ -30,21 +30,33 @@
   arcsize="50%"
   strokecolor="#9EE110"
   fillcolor="#9EE110">
+
   <w:anchorlock/>
-  <center style="color:#1A3673;
-    font-family:Arial,Helvetica,sans-serif;
-    font-size:16px;
-    font-weight:bold;
-    line-height:40px;">
-    Log in to the Sydney Health app
-  </center>
+
+  <v:textbox inset="0,0,0,0">
+    <center style="
+      color:#1A3673;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size:14px;
+      font-weight:bold;
+      line-height:16px;
+      text-align:center;
+      margin:0;
+      padding:0;">
+      Log in to the Sydney Health app
+    </center>
+  </v:textbox>
+
 </v:roundrect>
 <![endif]-->
 
-<!--[if !mso]><!-- -->
-<table role="presentation" border="0" cellspacing="0" cellpadding="0">
+
+				
+	
+		<!--[if !mso]><!-- -->
+<table role="presentation" border="0" cellpadding="0" cellspacing="0">
   <tr>
-    <td align="left"
+    <td align="center"
         bgcolor="#9EE110"
         style="border-radius:50px;">
       <a href="https://member.anthem.com/public/login?cmp=EM-MEDICAID-SydneyReg_eng_FAM1-ABCBS-NY"
@@ -62,21 +74,43 @@
            font-weight:bold;
            text-align:center;
            text-decoration:none;
-           -webkit-text-size-adjust:none;
-         ">
+           -webkit-text-size-adjust:none;">
         Log in to the Sydney Health app
       </a>
     </td>
   </tr>
 </table>
-<!--<![endif]-->							
-						</div>
+<!--<![endif]-->						
+					
 						</td>
 					</tr>
 				</table>
 				</td>
 			</tr>
 		</table>
+		
+		
+		<table bgcolor="#ddf4f3" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+			<tr>
+				<td align="left" style="padding: 0 0 40px 0" valign="top">
+				<table border="0" cellpadding="0" cellspacing="0" style="width:150px;" width="150">
+   <tr>
+      <td align="left" valign="top">
+         <div>
+            <!--[if gte mso 9]>
+            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:o="urn:schemas-microsoft-com:office:office" href="http://" target="_blank" title="call to action" alias="call to action"  style="height:35px;v-text-anchor:middle;width:150px;" arcsize="50%" strokecolor="#B7B7B8" fillcolor="#B7B7B8">
+               <w:anchorlock/>
+               <center style="color:#ffffff;font-family:sans-serif;font-size:14px;font-weight:bold;">Call to action&nbsp;&nbsp;&gt;</center>
+            </v:roundrect>
+            <![endif]--><a alias="call to action" href="http://" style="background-color:#B7B7B8;border:1px solid #B7B7B8;border-radius:20px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:14px;font-weight:bold;line-height:35px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;mso-hide:all;" target="_blank" title="call to action">Call to action&nbsp;&nbsp;&gt;</a>
+         </div>
+      </td>
+   </tr>
+</table>
+				</td>
+			</tr>
+		</table>
+
 		%%[ELSEIF @VAR4040 == 3 THEN]%%
 		
 		
