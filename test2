@@ -14,14 +14,18 @@
 		0 THEN]%% %%[IF @VAR4040 == 1 THEN]%%<table bgcolor="#ddf4f3" cellpadding="0" cellspacing="0" role="presentation" width="100%">
 			<tr>
 				<td align="left" style="padding: 0 0 40px 0" valign="top">
-				<table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation">
+				<table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
 					<tr>
 						<td align="center" valign="middle">
 						<div>
+						
+						
+												
+						
 							<!--[if gte mso 9]>
-<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:o="urn:schemas-microsoft-com:office:office" href="https://member.anthem.com/public/login?cmp=EM-MEDICAID-SydneyReg_eng_FAM1-ABCBS-NY" target="_blank" title="" alias=""  style="height:35px;v-text-anchor:middle;width:250px;" arcsize="50%" strokecolor="#9EE110" fillcolor="#9EE110">
+<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:o="urn:schemas-microsoft-com:office:office" href="https://member.anthem.com/public/login?cmp=EM-MEDICAID-SydneyReg_eng_FAM1-ABCBS-NY" target="_blank" title="" alias=""  style="height:40px;v-text-anchor:middle;width:250px;" arcsize="50%" strokecolor="#9EE110" fillcolor="#9EE110">
 <w:anchorlock/>
-							<center style="color: #1A3673; font-family: sans-serif; font-size: 14px; font-weight: bold;">
+							<center style="color: #1A3673; font-family: sans-serif; font-size: 14px; font-weight: bold; line-height:16px">
 							<b>Log in to the Sydney Health app</b></center>
 </v:roundrect>
 							<![endif]-->
@@ -44,12 +48,12 @@
 				<td align="left" style="padding: 0 0 40px 0" valign="top">
 				<table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
 					<tr>
-						<td align="left" height="40" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 20px; font-weight: bold" valign="middle">
+						<td align="left" height="40"  valign="middle">
 						<div>
 							<!--[if gte mso 9]>
-<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:o="urn:schemas-microsoft-com:office:office" href="https://www.summitcommunitycare.com/arkansas-passe/care/find-a-doctor.html?cmp=EM_MDCD_OMNI_FLU2026_AR_SCC" target="_blank" title="" alias=""  style="height:35px;v-text-anchor:middle;width:250px;" arcsize="50%" strokecolor="#00498D" fillcolor="#00498D">
+<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:o="urn:schemas-microsoft-com:office:office" href="https://www.summitcommunitycare.com/arkansas-passe/care/find-a-doctor.html?cmp=EM_MDCD_OMNI_FLU2026_AR_SCC" target="_blank" title="" alias=""  style="height:40px;v-text-anchor:middle;width:250px;" arcsize="50%" strokecolor="#00498D" fillcolor="#00498D">
 <w:anchorlock/>
-							<center style="color: #ffffff; font-family: sans-serif; font-size: 14px; font-weight: bold;">
+							<center style="color: #ffffff; font-family: sans-serif; font-size: 14px; font-weight: bold; line-height:15px;">
 							<b>Find a flu vaccine near you</b></center>
 
 </v:roundrect>
